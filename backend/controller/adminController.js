@@ -1,5 +1,7 @@
 const db = require('../databaseConfig')
 
+// new added
+
 exports.adminSave = (req, res) => {
     let { Email, Password } = req.body
     let value = [[Email, Password]]
